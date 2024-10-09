@@ -21,7 +21,7 @@ Probably the best Python ransomware available on Github
 	+> The decryption key for the free file is different from the rest of files
 	+> Change the wallpapper and get back the old one after the decryption
 	+> GUI with Timer
-	+> Easily customisable because with "const.py"
+	+> Easily customisable with "const.py" file
 	+> Create register KEY for launch the ransomware at every start up
 	+> Clean itself, the ransomware delete all files after the decryption
 	+> Tell the user how to buy moneros 
