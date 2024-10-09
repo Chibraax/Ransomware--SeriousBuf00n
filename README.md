@@ -1,4 +1,4 @@
-⚡⚡ SeriousBuffoon ⚡⚡ 
+<h1>⚡⚡ SeriousBuffoon ⚡⚡</h1>
 
 
 <img src="https://github.com/Chibraax/SeriousBuf00n/blob/main/Bin/GUI/images/joker.png" alt="Serious Buffoon" width="300" height="200">
@@ -7,11 +7,12 @@ Probably the best Python ransomware available on Github
 
  
 
-< Features of SeriousBuffoon > 
+<b>Features of SeriousBuffoon</b> 
 
 	+> 32 bits encryption key
 	+> Multi threaded encryption/decryption
 	+> Encrypt big files chunk by chunk (test on a 36 GB file)
+ 	+> Scrap on real time the value of the XMR on https://www.coingecko.com/
 	+> Can adapt depending of the processor
 	+> Send decryption key through TLS
 	+> Awesome GUI write with Tkinter with useful options
@@ -27,7 +28,7 @@ Probably the best Python ransomware available on Github
 	+> Works on Windows 10 and Windows 11
 
 
-GUI : 
+<h1>GUI</h1> 
 
 <img src="https://github.com/Chibraax/SeriousBuf00n/blob/main/Screenshot/1.png" alt="Serious Buffoon" width="1000" height="550">
 
