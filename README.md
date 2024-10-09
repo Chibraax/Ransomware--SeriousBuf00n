@@ -1,6 +1,6 @@
 ⚡⚡ SeriousBuffoon ⚡⚡ 
 
-<img src="https://github.com/Chibraax/SeriousBuf00n/blob/main/Bin/GUI/images/joker.png" alt="Serious Buffoon" width="20" height="30">
+<img src="https://github.com/Chibraax/SeriousBuf00n/blob/main/Bin/GUI/images/joker.png" alt="Serious Buffoon" width="70" height="50">
 
 
 
