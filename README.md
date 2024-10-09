@@ -34,31 +34,38 @@ Probably the best Python ransomware available on Github
 
 
 
+<h2>How to use SeriousBuffoon as .exe</h2> 
 
-< How to use SeriousBuffoon as .exe > 
+<h3>-> Python 3.12.1+ <- </h3>
 
-[-] Python 3.12.1+
-
-[-] Set up the server: 
+<h3>[-] Set up the server [-]</h3>
 
 	+> Execute the "auto_cert_gen.sh" file for generate your certificate and key
 	+> Edit server.py and the variables "keyfile" and "certificate" by setting the path of these files
 	+> Edit your IP and PORT 
 	+> Run the server by taping python3 server.py . (Maybe you will need to install termcolor (pip3 install termcolor))
 
-[-] Set up the virtual environment and install all the required packages. 
+<h3>[-] Set up the virtual environment and install all the required packages [-]</h3>
 
-	Step 1 : cd SeriousBuffoon/Bin
-	Step 2 : py -m venv .venv
-	Step 3 : activate the virtual env by taping :".\.venv\Scripts\activate" 
-	Step 4 : install of packages by taping : pip3 install -r ..\ressource\requierements.txt
-	Step 5 : Edit the const.py file and the variable : "DIR_TO_HIT" to set where SeriousBuffoon should encrypt
-	Step 6 : Edit the const.py file and the variable : HOST,PORT to set your server and port
-	Step 7 : Compile the ransomware by type : pyinstaller build.spec
-	Step 8 : you will find the .exe in "dist" folder
-	Step 9 : Enjoy <3
+```cd SeriousBuffoon/Bin```
 
+``py -m venv .venv``
 
+activate the virtual env: ``.\.venv\Scripts\activate`` 
+
+install of packages : ``pip3 install -r ..\ressource\requierements.txt``
+
+Edit the ``const.py`` file and the variable : ``DIR_TO_HIT`` to set where SeriousBuffoon should encrypt
+
+Edit the ``const.py`` file and the variable : ``HOST``,``PORT`` to set your server and port
+
+Compile the ransomware by type : ``pyinstaller build.spec``
+
+You will find the .exe in "dist" folder
+
+<b>Enjoy <3</b>
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 [-] If when you try to change the .ico of the .exe it's not working :
 
