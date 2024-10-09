@@ -1,12 +1,12 @@
-SeriousBuffoon 1.0
+⚡⚡ SeriousBuffoon ⚡⚡ 
 
-[-] That ransomware was created by Chibraax [-]
+<img src="Bin/GUI/Images/joker.png" alt="Serious Buffoon">
 
-< Information about this Ransomware >
-	+> This ransomware works on Windows 10 and Windows 11
-	+> This ransomware works on Python 3.12.1
-	+> This ransomware is designed to get executed as ".exe" 
 
+
+Probably the best Python ransomware available on Github
+
+ 
 
 < Features of SeriousBuffoon > 
 
