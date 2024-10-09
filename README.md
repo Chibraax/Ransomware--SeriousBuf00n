@@ -1,8 +1,7 @@
-									⚡⚡ SeriousBuffoon ⚡⚡ 
+⚡⚡ SeriousBuffoon ⚡⚡ 
+
 
 <img src="https://github.com/Chibraax/SeriousBuf00n/blob/main/Bin/GUI/images/joker.png" alt="Serious Buffoon" width="300" height="200">
-
-
 
 Probably the best Python ransomware available on Github
 
@@ -26,85 +25,6 @@ Probably the best Python ransomware available on Github
 	+> Clean itself, the ransomware delete all files after the decryption
 	+> Tell the user how to buy moneros 
 	+> Works on Windows 10 and Windows 11
-
-< How SeriousBuffoon works ? > 
-
-[-] The "const.py" file:
-
-This file contains ALL constant useful for the ransomware.
-
-Server IP, images/ico path, path to hit... everything is there.
-So you can customisable easily the behaving of SeriousBuffoon.
-
-SeriousBuffoon is divided by 5 classes :
-	+> Begin
-	+> Persistence
-	+> RansomWare
-	+> GUI
-	+> Clean
-
-[-] Begin: 
-
-Set up all the requierements for the good execution of SeriousBuffoon. 
-
-	1) Create the directorie where will be stored our files (C:\Users\the_user\AppData\test) 
-	2) Scrap the value of the Monero from 'https://www.coingecko.com/' and save it into a file
-	3) Get the path of the wallpapper and save it into a file
-	4) Generate and store the Identification Key
-
-[-] Persistence:
-
-	Allow SeriousBuffoon to launch at every start up.
-
-	1) Create a register key into Computer\HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Run named 'main'
-
-[-] RansomWare:
-
-		The librairie used for encryption is "cryptography" (https://cryptography.io/en/latest/).
-		This ransomware was test on a 35go file and the encryption/decryption was successfully.
-		
-	+> Start to enumerates all file to encrypt (the DIR_TO_HIT const) define where the ransomware should encrypt
-	+> Divise files into 2 list. One for files < 80MB and the other one for files > 80MB. 
-	+> Generate a decryption key for the free file different from the main decryption key
-	+> Start decrypt files < 80MB 
-	+> Then files > 80MB
-	+> For files > 80MB, the files is chunked into 6MB 
-	+> The multi threading features allow the ransomware to create the same numbers of threads that amount of cpu cores.
-
-
-[-] GUI : 
-
-	The GUI make this ransomware unique and inform the user of different things. 
-
-	+> GUI is made with Tkinter
-	+> Countdown of 3 days start at the first launch of the ransomware
-	+> There is 3 tab:
-		+> How Buy Moneros ? Help the user to buy moneros
-		+> Decrypt One file for free. Allow the user to decrypt one file for free
-		+> Decrypt your files. Ask the decryption key to decrypt all files on the system
-	+> Features to copy on the clipboard the monero address and the identification key
-	+> Change the wallpapper by a creapy buffoon
-	+> Write a README.txt on the desktop, inform the user to follow every instructions for get the decryption key
-
-
-[-] Clean :
-
-	Cleanup the actions of the ransomware.
-
-	+> Delete the ransomware folder
-	+> Put back the old wallpapper
-	+> Delete the register key
-	+> Kill all ransomware process
-
-
-
-!!! Be careful if you change variable name, it will probably cause some errors !!!
-!!! Do not moove or rename files !!!
-
-I do not guarantee you the .exe will bypass any antivirus or Windows Defender, it's up to you to make some AV evasion.
-
-Get confortable with the ransomware before use it, play with it, read the code etc...
-When you "play" with the ransomware set "debug=True" and "console=True" in the build.spec, to make easier the debugging.
 
 
 < How to use SeriousBuffoon as .exe > 
