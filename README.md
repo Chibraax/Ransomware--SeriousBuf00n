@@ -49,11 +49,11 @@ Probably the best Python ransomware available on Github
 
 ```cd SeriousBuffoon/Bin```
 
-``py -m venv .venv``
+create virtual env : ``py -m venv .venv``
 
 activate the virtual env: ``.\.venv\Scripts\activate`` 
 
-install of packages : ``pip3 install -r ..\ressource\requierements.txt``
+install libs: ``pip3 install -r ..\ressource\requierements.txt``
 
 Edit the ``const.py`` file and the variable : ``DIR_TO_HIT`` to set where SeriousBuffoon should encrypt
 
