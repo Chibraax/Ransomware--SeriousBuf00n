@@ -29,7 +29,7 @@ Probably the best Python ransomware available on Github
 
 GUI : 
 
-<img src="https://github.com/Chibraax/SeriousBuf00n/blob/main/Screenshot/1.png" alt="Serious Buffoon" width="300" height="200">
+<img src="https://github.com/Chibraax/SeriousBuf00n/blob/main/Screenshot/1.png" alt="Serious Buffoon" width="600" height="400">
 
 
 
