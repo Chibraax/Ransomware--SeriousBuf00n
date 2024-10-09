@@ -27,6 +27,13 @@ Probably the best Python ransomware available on Github
 	+> Works on Windows 10 and Windows 11
 
 
+GUI : 
+
+<img src="https://github.com/Chibraax/SeriousBuf00n/blob/main/Screenshot/1.png" alt="Serious Buffoon" width="300" height="200">
+
+
+
+
 < How to use SeriousBuffoon as .exe > 
 
 [-] Python 3.12.1+
