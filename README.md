@@ -11,7 +11,7 @@ Probably the best Python ransomware available on Github
 
 	+> 32 bits encryption key
 	+> Multi threaded encryption/decryption
-	+> Encrypt big files chunk by chunk 
+	+> Encrypt big files chunk by chunk (test on a 36 GB file)
 	+> Can adapt depending of the processor
 	+> Send decryption key through TLS
 	+> Awesome GUI write with Tkinter with useful options
@@ -19,7 +19,7 @@ Probably the best Python ransomware available on Github
 	+> Victim can decrypt one file for free, to create a relationship of trust with the user 
 	+> The decryption key for the free file is different from the rest of files
 	+> Change the wallpapper and get back the old one after the decryption
-	+> GUI with Timer of 3 days
+	+> GUI with Timer
 	+> Easily customisable because with "const.py"
 	+> Create register KEY for launch the ransomware at every start up
 	+> Clean itself, the ransomware delete all files after the decryption
