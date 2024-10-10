@@ -1,4 +1,4 @@
-<h1>⚡⚡ SeriousBuffoon ⚡⚡</h1>
+# ⚡⚡ SeriousBuffoon ⚡⚡
 
 
 <img src="https://github.com/Chibraax/SeriousBuf00n/blob/main/Bin/GUI/images/joker.png" alt="Serious Buffoon" width="300" height="200">
