@@ -4,7 +4,7 @@ SeriousBuffoon 1.0
 
 < Information about this Ransomware >
 	+> This ransomware works on Windows 10 and Windows 11
-	+> This ransomware works on Python 3.12.1
+	+> This ransomware works on Python 3.12.1+
 	+> This ransomware is designed to get executed as ".exe" 
 
 
