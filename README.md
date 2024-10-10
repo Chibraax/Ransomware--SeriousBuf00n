@@ -72,6 +72,13 @@ Probably the best Python ransomware available on Github
 
 <b>Enjoy <3</b>
 
+## To do:
+ - [ ] Add a database (SQL) 
+ - [ ] Bypass permission / Privileges Escalation (WinPwnage)
+ - [ ] Compatible with linux
+ - [ ] Find another way to check if ransomware had already ran
+
+
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## If when you try to change the .ico of the .exe it's not working :
