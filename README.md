@@ -82,3 +82,8 @@ Probably the best Python ransomware available on Github
 - In production edit the ``EMAIL`` and ``MONERO_ADDRESS`` in ``const.py``.
 - Add some files extensions on ``encryption/encrypt.py`` line 26.
 - You can modify the ``build.spec`` if you want change the behaviour of the ransomware
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+## If you like it Tips me <3 
+<img src="https://github.com/Chibraax/SeriousBuf00n---Ransomware/blob/main/Bin/GUI/images/monero.png" alt="Serious Buffoon" width="180" height="120">
+Monero : 8AjPMwYakhxVfStZzKW34JNJD8Jnr3vBQ4CnTzcfRymNXJHUuZ4nRitT2nShynZzzpNXjRKofinL9BLYsQme1yiTDWyKT6r
