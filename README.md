@@ -48,7 +48,7 @@ Probably the best Python ransomware available on Github
 
 +> Edit your ``IP`` and ``PORT`` 
 
-+> Run the server by taping ``python3 server.py`` . (Maybe you will need to install termcolor ( ``pip3 install termcolor`` ))
++> Run the server by taping ``python3 server.py`` . ( Maybe you'll need to install termcolor``pip3 install termcolor`` )
 
 ## Set up the virtual environment and install all the required packages
 
