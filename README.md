@@ -36,7 +36,9 @@ Probably the best Python ransomware available on Github
  
 # How to use SeriousBuffoon as .exe  
 
-### Python 3.12.1 +
+### Python 3.12.1 + 
+
+### !! BE CAREFUL WITH Python 3.13+ BECAUSE OF THE GIL !! ###
 
 ## Server
 
