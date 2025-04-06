@@ -9,7 +9,7 @@ Probably the best Python ransomware available on Github
 
 ## Features
 
-- 256 bits encryption key
+- AES-256 bits encryption 
 - Multi threaded encryption/decryption
 - Encrypt big files chunk by chunk (test on a 36 GB file)
 - Scrap on real time the value of the XMR on https://www.coingecko.com/
